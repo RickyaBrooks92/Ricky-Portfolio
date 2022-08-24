@@ -1,6 +1,7 @@
-import React from 'react';
-import ResponsiveAppBar from './NavBar';
-import Bio from './Bio';
+import React from "react";
+import ResponsiveAppBar from "./NavBar";
+import Intro from "./Intro";
+import AboutMe from "./AboutMe";
 function HomePage() {
   return (
     <div>
@@ -8,7 +9,10 @@ function HomePage() {
         <ResponsiveAppBar />
       </div>
       <div>
-        <Bio />
+        <Intro />
+      </div>
+      <div>
+        <AboutMe />
       </div>
     </div>
   );
