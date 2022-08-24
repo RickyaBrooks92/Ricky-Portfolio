@@ -9,13 +9,14 @@ import { Typography } from "@mui/material";
 
 const AboutMe = () => {
   return (
-    <Box sx={{ display: "flex", justifyContent: "center", pt: 20}}>
+    <Box sx={{ display: "flex", justifyContent: "center", pt: 20 }}>
       <Card
         sx={{
           width: "25%",
           display: "flex",
           justifyContent: "center",
           border: 1,
+          backgroundColor: "blueviolet",
         }}
       >
         <CardContent>

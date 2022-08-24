@@ -16,25 +16,32 @@ const Intro = () => {
           display: "flex",
           justifyContent: "center",
           border: 1,
+          backgroundColor: "blueviolet",
         }}
       >
         <CardContent>
-          <Typography gutterBottom variant="h5" component="h2">
-            Ricky Brooks
+          <Typography sx={{ pb: 1, fontSize: 18, color: "white" }}>
+            Hi, my name is
           </Typography>
-          <Typography variant="body2" color="textSecondary" component="p">
-            Short Bio Here About how amazing Ricky is at whatever Ricky Does
-            goes here!!
+          <Typography sx={{ fontSize: 26 }}>
+            Ricky Brooks.
+            <br />
+            <Typography
+              sx={{ fontSize: 26 }}
+              color="textSecondary"
+              component="p"
+            >
+              I build things for the web
+            </Typography>
+          </Typography>
+          <Typography component="p">
+            Hello! I am looking for a job as an engineer. I'm incredibly
+            passionate about it and I enjoy working side by side with people. I
+            worked as a gymnastics coach prior so I know how to have fun and be
+            productive and I've been able to transition that skill to my
+            development abilities.
           </Typography>
         </CardContent>
-        <CardActions>
-          <Button size="small" color="primary">
-            Share
-          </Button>
-          <Button size="small" color="primary">
-            Learn More
-          </Button>
-        </CardActions>
       </Card>
     </Box>
   );

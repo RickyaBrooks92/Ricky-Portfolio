@@ -4,7 +4,7 @@ import Intro from "./Intro";
 import AboutMe from "./AboutMe";
 function HomePage() {
   return (
-    <div>
+    <div style={{ backgroundColor: "blueviolet" }}>
       <div>
         <ResponsiveAppBar />
       </div>
@@ -19,3 +19,5 @@ function HomePage() {
 }
 
 export default HomePage;
+
+<style></style>;

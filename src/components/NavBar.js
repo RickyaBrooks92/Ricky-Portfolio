@@ -11,10 +11,10 @@ const pages = ["Projects", "Tech Stack", "Contact"];
 
 const ResponsiveAppBar = () => {
   return (
-    <AppBar position="static">
+    <AppBar position="static" sx={{ backgroundColor: "blueviolet" }}>
       <Container maxWidth="xl">
         <Toolbar disableGutters>
-          <AdbIcon sx={{ display: "flex", border: 1, mr: 1 }} />
+          <AdbIcon sx={{ display: "flex", mr: 1 }} />
           <Typography
             variant="h6"
             noWrap
@@ -28,7 +28,6 @@ const ResponsiveAppBar = () => {
               letterSpacing: ".3rem",
               color: "inherit",
               textDecoration: "none",
-              border: 1,
             }}
           >
             Ricky Brooks
@@ -41,9 +40,7 @@ const ResponsiveAppBar = () => {
               justifyContent: "flex-end",
             }}
           ></Box>
-          <AdbIcon
-            sx={{ display: { xs: "flex", md: "none", border: 1 }, mr: 1 }}
-          />
+          <AdbIcon sx={{ display: { xs: "flex", md: "none" }, mr: 1 }} />
           <Typography
             variant="h5"
             noWrap
@@ -58,7 +55,6 @@ const ResponsiveAppBar = () => {
               letterSpacing: ".3rem",
               color: "inherit",
               textDecoration: "none",
-              border: 1,
             }}
           >
             Ricky Brooks
@@ -69,7 +65,6 @@ const ResponsiveAppBar = () => {
               alignContent: "right",
               alignItems: "right",
               alignText: "right",
-              border: "1px solid",
             }}
           >
             {pages.map((page) => (
