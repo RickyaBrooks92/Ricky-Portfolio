@@ -28,12 +28,7 @@ function HomePage() {
           alignContent: 'left',
         }}
       >
-        <div>
-          <AboutMe />
-        </div>
-        <div>
-          <AboutMeImage />
-        </div>
+        <AboutMe />
       </div>
       <footer>
         <FooterNav />
