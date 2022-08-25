@@ -8,7 +8,7 @@ const AboutMeImage = () => {
       <img
         src={Ricky}
         alt='Ricky Brooks'
-        style={{ borderRadius: '50%', width: '75%', height: 'auto' }}
+        style={{ borderRadius: '75%', width: '75%', height: 'auto' }}
       />
     </Box>
   );
