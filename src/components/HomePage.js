@@ -21,13 +21,15 @@ function HomePage() {
           alignContent: 'left',
         }}
       >
-        <AboutMe />
-        <AboutMeImage />
+        <div>
+          <AboutMe />
+        </div>
+        <div>
+          <AboutMeImage />
+        </div>
       </div>
     </div>
   );
 }
 
 export default HomePage;
-
-<style></style>;
