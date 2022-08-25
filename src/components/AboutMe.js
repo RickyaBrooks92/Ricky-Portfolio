@@ -1,29 +1,34 @@
-import React from "react";
-import Box from "@mui/material/Box";
-import Card from "@mui/material/Card";
-import CardActions from "@mui/material/CardActions";
-import CardContent from "@mui/material/CardContent";
-import CardMedia from "@mui/material/CardMedia";
-import Button from "@mui/material/Button";
-import { Typography } from "@mui/material";
-
+import React from 'react';
+import Box from '@mui/material/Box';
+import Card from '@mui/material/Card';
+import CardActions from '@mui/material/CardActions';
+import CardContent from '@mui/material/CardContent';
+import CardMedia from '@mui/material/CardMedia';
+import Button from '@mui/material/Button';
+import { Typography } from '@mui/material';
+import Ricky from '../ImageFolder/ricky.jpeg';
 const AboutMe = () => {
   return (
-    <Box sx={{ display: "flex", justifyContent: "center", pt: 20 }}>
+    <Box sx={{ display: 'flex', justifyContent: 'center', pt: 20 }}>
       <Card
         sx={{
-          width: "25%",
-          display: "flex",
-          justifyContent: "center",
+          width: '25%',
+          display: 'flex',
+          justifyContent: 'center',
           border: 1,
-          backgroundColor: "blueviolet",
+          backgroundColor: 'blueviolet',
         }}
       >
         <CardContent>
-          <Typography gutterBottom variant="h5" component="h2">
+          <Typography gutterBottom variant='h5' component='h2'>
             About Me
           </Typography>
-          <Typography variant="body2" color="textSecondary" component="p">
+          <Typography
+            variant='body2'
+            color='textSecondary'
+            component='div'
+            sx={{ display: 'flex' }}
+          >
             Hello! I'm kind of stumped on what to write because there really
             isn't much context here so I will try: My name is Ricky Brooks, My
             favorite color is blue, I enjoy coding, I play pokemon go in my free
