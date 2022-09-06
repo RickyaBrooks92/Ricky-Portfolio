@@ -16,7 +16,7 @@ const Intro = () => {
           display: 'flex',
           justifyContent: 'center',
           border: 1,
-          backgroundColor: 'blueviolet',
+          backgroundColor: '#5f9ea0',
         }}
       >
         <CardContent>

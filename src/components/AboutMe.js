@@ -21,7 +21,7 @@ const AboutMe = () => {
           flexWrap: 'row wrap',
           justifyContent: 'center',
           border: 1,
-          backgroundColor: 'blueviolet',
+          backgroundColor: '#5f9ea0',
           maxHeight: '20rem',
         }}
       >
