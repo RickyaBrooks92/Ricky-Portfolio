@@ -33,6 +33,10 @@ function HomePage() {
       <footer>
         <FooterNav />
       </footer>
+      <div className='font-link'>
+        Hello, my name is Ricky Brooks. I am a software engineer. I am
+        passionate.
+      </div>
     </div>
   );
 }

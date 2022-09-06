@@ -16,18 +16,23 @@ const AboutMe = () => {
     >
       <Card
         sx={{
-          width: '25%',
+          width: '45%',
           display: 'flex',
-          flexWrap: 'wrap',
+          flexWrap: 'row wrap',
           justifyContent: 'center',
           border: 1,
           backgroundColor: 'blueviolet',
           maxHeight: '20rem',
         }}
       >
-        <CardContent sx={{ display: 'flex', flexWrap: 'wrap' }}>
+        <CardContent sx={{ display: 'flex', flexWrap: 'row wrap' }}>
           <div>
-            <Typography gutterBottom variant='h5' component='h2'>
+            <Typography
+              gutterBottom
+              variant='h5'
+              component='h2'
+              sx={{ display: 'flex', flexWrap: 'row wrap' }}
+            >
               About Me
             </Typography>
             <Typography
@@ -51,9 +56,7 @@ const AboutMe = () => {
               let me know! Thanks! Ricky Brooks
             </Typography>
           </div>
-          <div>
-            <AboutMeImage />
-          </div>
+          <AboutMeImage />
         </CardContent>
       </Card>
     </Box>

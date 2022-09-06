@@ -6,7 +6,11 @@ const AboutMeImage = () => {
     <img
       src={Ricky}
       alt='Ricky Brooks'
-      style={{ borderRadius: '20%', height: '10rem', width: '10rem' }}
+      style={{
+        borderRadius: '50%',
+        height: '10rem',
+        width: '10rem',
+      }}
     />
   );
 };
