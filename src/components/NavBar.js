@@ -7,7 +7,7 @@ import Container from '@mui/material/Container';
 import Button from '@mui/material/Button';
 import AdbIcon from '@mui/icons-material/Adb';
 
-const pages = ['Projects', 'Tech Stack', 'Contact'];
+const pages = ['Projects', 'Tech Stack', 'Contact', 'About Me'];
 
 const ResponsiveAppBar = () => {
   return (
