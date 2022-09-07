@@ -7,9 +7,10 @@ import Container from '@mui/material/Container';
 import Button from '@mui/material/Button';
 import AdbIcon from '@mui/icons-material/Adb';
 
-const pages = ['Projects', 'Tech Stack', 'Contact', 'About Me'];
-
 const ResponsiveAppBar = () => {
+  const aboutMeClick = () => {
+    <a href='#aboutMe'>About me</a>;
+  };
   return (
     <AppBar position='static' sx={{}}>
       <Container maxWidth='xl'>
@@ -67,19 +68,17 @@ const ResponsiveAppBar = () => {
               alignText: 'right',
             }}
           >
-            {pages.map((page) => (
-              <Button
-                key={page}
-                sx={{
-                  my: 2,
-                  color: 'white',
-                  display: 'flex',
-                  alignItems: 'center',
-                }}
-              >
-                {page}
-              </Button>
-            ))}
+            <Button
+              sx={{
+                my: 2,
+                color: 'white',
+                display: 'flex',
+                alignItems: 'center',
+              }}
+              onClick={aboutMeClick}
+            >
+              About Me
+            </Button>
           </Box>
         </Toolbar>
       </Container>
