@@ -8,9 +8,6 @@ import Button from '@mui/material/Button';
 import AdbIcon from '@mui/icons-material/Adb';
 
 const ResponsiveAppBar = () => {
-  const aboutMeClick = () => {
-    <a href='#aboutMe'>About me</a>;
-  };
   return (
     <AppBar position='static' sx={{}}>
       <Container maxWidth='xl'>
@@ -75,9 +72,8 @@ const ResponsiveAppBar = () => {
                 display: 'flex',
                 alignItems: 'center',
               }}
-              onClick={aboutMeClick}
             >
-              About Me
+              <a href='#aboutMe'>About me</a>
             </Button>
           </Box>
         </Toolbar>

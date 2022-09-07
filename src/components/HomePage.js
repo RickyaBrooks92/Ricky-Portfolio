@@ -14,7 +14,6 @@ function HomePage() {
         <Intro />
       </div>
       <div
-        id='contactUs'
         style={{
           display: 'flex',
           flexFlow: 'row nowrap',

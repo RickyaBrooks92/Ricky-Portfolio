@@ -26,7 +26,7 @@ const AboutMe = () => {
         }}
       >
         <CardContent sx={{ display: 'flex', flexWrap: 'row wrap' }}>
-          <div>
+          <div id='aboutMe'>
             <Typography
               gutterBottom
               variant='h5'
