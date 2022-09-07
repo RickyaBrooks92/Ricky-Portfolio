@@ -75,6 +75,16 @@ const ResponsiveAppBar = () => {
             >
               <a href='#aboutMe'>About me</a>
             </Button>
+            <Button
+              sx={{
+                my: 2,
+                color: 'white',
+                display: 'flex',
+                alignItems: 'center',
+              }}
+            >
+              <a href='#experience'>Experience</a>
+            </Button>
           </Box>
         </Toolbar>
       </Container>

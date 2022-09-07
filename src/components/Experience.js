@@ -9,8 +9,18 @@ import { Typography } from '@mui/material';
 
 const Experience = () => {
   return (
-    <Box sx={{ display: 'flex', justifyContent: 'center', pt: 20 }}>
+    <Box
+      sx={{
+        display: 'flex',
+
+        pt: 20,
+        flexDirection: 'column',
+        justifyContent: 'center',
+        alignItems: 'center',
+      }}
+    >
       <Card
+        id='experience'
         sx={{
           width: '25%',
           display: 'flex',
@@ -20,21 +30,21 @@ const Experience = () => {
       >
         <CardContent>
           <Typography gutterBottom variant='h5' component='h2'>
-            Ricky Brooks
+            Experience & Projects!
           </Typography>
           <Typography variant='body2' color='textSecondary' component='p'>
             Short Bio Here About how amazing Ricky is at whatever Ricky Does
             goes here!!
           </Typography>
         </CardContent>
-        <CardActions>
-          <Button size='small' color='primary'>
-            Share
-          </Button>
-          <Button size='small' color='primary'>
-            Learn More
-          </Button>
-        </CardActions>
+      </Card>
+      <Card>
+        <Typography component='div'>
+          Rickys StackAThon Projects <br />
+          Time: 48 hours <br />
+          Stack: React, React Context, Express, Node.js, Material UI,
+          Javascript.
+        </Typography>
       </Card>
     </Box>
   );
