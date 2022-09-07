@@ -10,6 +10,7 @@ const AboutMeImage = () => {
         borderRadius: '50%',
         height: '10rem',
         width: '10rem',
+        border: '1px solid black',
       }}
     />
   );

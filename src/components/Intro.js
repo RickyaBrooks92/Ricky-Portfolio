@@ -26,11 +26,7 @@ const Intro = () => {
           <Typography sx={{ fontSize: 26 }}>
             Ricky Brooks.
             <br />
-            <Typography
-              sx={{ fontSize: 26 }}
-              color='textSecondary'
-              component='p'
-            >
+            <Typography sx={{ fontSize: 26 }} component='p'>
               I build things for the web
             </Typography>
           </Typography>

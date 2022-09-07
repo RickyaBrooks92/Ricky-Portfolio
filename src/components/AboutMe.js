@@ -35,12 +35,7 @@ const AboutMe = () => {
             >
               About Me
             </Typography>
-            <Typography
-              variant='body2'
-              color='textSecondary'
-              component='div'
-              sx={{ display: 'flex' }}
-            >
+            <Typography component='div' sx={{ display: 'flex' }}>
               Hello! I'm kind of stumped on what to write because there really
               isn't much context here so I will try: My name is Ricky Brooks, My
               favorite color is blue, I enjoy coding, I play pokemon go in my
