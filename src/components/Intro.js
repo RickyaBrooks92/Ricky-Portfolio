@@ -9,10 +9,10 @@ import { Typography } from '@mui/material';
 
 const Intro = () => {
   return (
-    <Box sx={{ display: 'flex', justifyContent: 'center', pt: 20 }}>
+    <Box sx={{ display: 'flex', justifyContent: 'center', margin: '10rem' }}>
       <Card
         sx={{
-          width: '25%',
+          width: '45%',
           display: 'flex',
           justifyContent: 'center',
           border: 1,

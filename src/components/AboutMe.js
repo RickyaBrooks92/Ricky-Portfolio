@@ -11,7 +11,7 @@ const AboutMe = () => {
         display: 'flex',
         flexWrap: 'wrap',
         justifyContent: 'center',
-        pt: 20,
+        margin: '5rem',
       }}
     >
       <Card

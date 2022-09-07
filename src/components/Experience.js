@@ -6,17 +6,19 @@ import CardContent from '@mui/material/CardContent';
 
 import Button from '@mui/material/Button';
 import { Typography } from '@mui/material';
+import WeatherProject from './WeatherProject';
 
 const Experience = () => {
   return (
     <Box
       sx={{
         display: 'flex',
-
-        pt: 20,
+        margin: '10rem',
         flexDirection: 'column',
         justifyContent: 'center',
         alignItems: 'center',
+        flexWrap: 'wrap',
+        wordWrap: 'break-word',
       }}
     >
       <Card
@@ -38,14 +40,7 @@ const Experience = () => {
           </Typography>
         </CardContent>
       </Card>
-      <Card>
-        <Typography component='div'>
-          Rickys StackAThon Projects <br />
-          Time: 48 hours <br />
-          Stack: React, React Context, Express, Node.js, Material UI,
-          Javascript.
-        </Typography>
-      </Card>
+      <WeatherProject />
     </Box>
   );
 };
